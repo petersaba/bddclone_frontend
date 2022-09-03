@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #f5f5f5;
+}
+
 .hero{
     background-image: url("../images/slide1.jpg");
     background-repeat: no-repeat;
@@ -82,4 +86,43 @@ img{
 .arrow{
     height: 3em;
     width: 3em;
+}
+
+.foundations_title{
+    text-align: center;
+    padding: 2em 0 1em;
+}
+
+.container_foundations{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 0 2em;
+}
+
+.foundation{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2em;
+    margin: 1em;
+    width: 13em;
+    background-color: white;
+    flex-grow: 1;
+    border-radius: 5px;
+}
+
+.foundation > img{
+    height: 5em;
+    align-self: center;
+}
+
+.foundation > *{
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+.foundation > p{
+    font-weight: 500;
+    font-size: 1.1em;
 }
