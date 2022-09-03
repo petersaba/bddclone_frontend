@@ -25,7 +25,7 @@ body{
     display: flex;
     height: 9em;
     justify-content: space-between;
-    padding: 1em 6vw 0;
+    padding: 16px 6vw 0;
     align-items: center;
 }
 
@@ -49,8 +49,8 @@ img{
 }
 
 .right_nav > li:last-child > button{
-    width: 7em;
-    height: 3em;
+    width: 112px;
+    height: 48px;
     border-radius: 20px;
     background-color: green;
     border-color: green;
@@ -78,51 +78,72 @@ img{
 
 .container_down{
     position: absolute;
-    bottom: 1.25em;
+    bottom: 20px;
     left: 50%;
     transform: translate(-50%,0);
 }
 
 .arrow{
-    height: 3em;
-    width: 3em;
+    height: 48px;
+    width: 48px;
 }
 
 .foundations_title{
     text-align: center;
-    padding: 2em 0 1em;
+    padding: 32px 0 1em;
 }
 
 .container_foundations{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 0 0 2em;
+    padding: 0 0 32px;
 }
 
 .foundation{
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 2em;
-    margin: 1em;
-    width: 13em;
+    padding: 32px;
+    margin: 16px;
+    width: 210px;
     background-color: white;
     flex-grow: 1;
     border-radius: 5px;
 }
 
 .foundation > img{
-    height: 5em;
+    height: 80px;
     align-self: center;
 }
 
 .foundation > *{
-    margin-bottom: 1em;
+    margin-bottom: 16px;
     font-weight: bold;
 }
 
 .foundation > p{
     font-weight: 500;
     font-size: 1.1em;
+}
+
+.container_vision{
+    height: 420px;
+    text-align: center;
+    padding: 40px 20% 40px;
+    background-image: url("../images/parallax-4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container_vision > h2{
+    margin-bottom: 40px;
+    color: white;
+    text-shadow: 0 0 2px black;
+}
+
+.container_vision img{
+    height: 250px;
+    width: 450px;
 }
