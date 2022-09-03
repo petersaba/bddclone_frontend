@@ -1,0 +1,85 @@
+/* CSS reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    background-image: url("../images/slide1.jpg");
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.nav_bar{
+    display: flex;
+    height: 9em;
+    justify-content: space-between;
+    padding: 1em 6vw 0;
+    align-items: center;
+}
+
+img{
+    height: 100%;
+}
+
+.right_nav{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.right_nav > li{
+    padding: 2%; 
+}
+
+.right_nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.right_nav > li:last-child > button{
+    width: 7em;
+    height: 3em;
+    border-radius: 20px;
+    background-color: green;
+    border-color: green;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.center{
+    width: 60%;
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 2.4em;
+    align-self: center;
+}
+
+.center > p{
+    text-align: center;
+    font-size: 1.25em;
+}
+
+.container_down{
+    position: absolute;
+    bottom: 1.25em;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.arrow{
+    height: 3em;
+    width: 3em;
+}
