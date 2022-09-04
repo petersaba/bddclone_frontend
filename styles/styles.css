@@ -51,8 +51,8 @@ img{
     width: 112px;
     height: 48px;
     border-radius: 20px;
-    background-color: green;
-    border-color: green;
+    background-color: #0078BE;
+    border: 0;
 }
 
 .bold{
@@ -413,4 +413,35 @@ img{
     border-radius: 20px;
     color: white;
     font-weight: bold;
+}
+
+.container_community{
+    padding: 48px 5%;
+    display: flex;
+
+}
+
+.container_community > div > *{
+    width: 290px;
+}
+
+.container_community > div {
+    margin: 0 20px;
+    padding: 20px;
+    height: 180px;
+    justify-content: space-between;
+    border: 1px solid rgba(50,50,50,0.2);
+}
+
+.container_community > div > img{
+    width: 90px;
+    height: 90px;
+    padding: 0;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.container_community > h1{
+    font-size: 1.7em;
+    margin-right: 20px;
 }
