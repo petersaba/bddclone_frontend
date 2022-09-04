@@ -220,7 +220,50 @@ img{
 }
 
 .flex > img{
-    width: 10vw;
+    width: 9vw;
     margin-right: 20px;
-    height: 45px;
+    height: 30px;
+}
+
+.container_hub{
+    text-align: center;
+    padding: 40px 10% 40px;
+    background-image: url("../images/parallax-light.jpg");
+}
+
+.container_hub > h2{
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.container_hub > div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_hub > div > div{
+    width: 25%;
+    padding: 0 5% 0;
+}
+
+.container_hub > div > div > img{
+    width: 80px;
+    height: 80px;
+}
+
+.container_hub > div > div > h3{
+    font-size: 2em;
+    color: white;
+    -webkit-text-stroke: #00802d;
+    -webkit-text-stroke-width: 1.5px;
+}
+
+.container_hub > div > div > *{
+    margin-bottom: 20px;
+}
+
+.container_hub > div > div > p{
+    font-weight: bold;
+    color: #333333;
 }
