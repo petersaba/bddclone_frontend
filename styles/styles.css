@@ -228,6 +228,7 @@ img{
     text-align: center;
     padding: 40px 10% 40px;
     background-image: url("../images/parallax-light.jpg");
+    background-size: cover;
 }
 
 .container_hub > h2{
@@ -364,4 +365,52 @@ img{
 .trending > p > a{
     text-decoration: none;
     color: white;
+}
+
+.container_programs{
+    background-image: linear-gradient(rgba(50,50,50,0.5), rgba(50,50,50,0.5)), url("../images/parallax-7.jpg");
+    background-position: top center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.container_programs > div{
+    display: flex;
+    padding: 30px 12% 30px;
+}
+
+.container_programs > div > div > img{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.container_programs > div > div:first-child > img{
+    width: 100px;
+}
+
+.container_programs > div > div{
+    width: 20%;
+    /* text-align: center; */
+    margin: 5px;
+    font-size: 1.3em;
+}
+
+.container_programs > div > div:first-child{
+    width: 40%;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.container_programs > button{
+    margin-bottom: 30px;
+    height: 40px;
+    width: 340px;
+    background-color: #0078BE;
+    border: 0;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
 }
