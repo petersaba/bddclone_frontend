@@ -10,9 +10,8 @@ body{
 }
 
 .hero{
-    background-image: url("../images/slide1.jpg");
+    background-image: linear-gradient(rgba(50,50,50,0.5), rgba(50,50,50,0.5)), url("../images/slide1.jpg");
     background-repeat: no-repeat;
-    background-blend-mode: darken;
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -67,7 +66,7 @@ img{
     left: 50vw;
     transform: translate(-50%,-50%);
     color: white;
-    font-size: 2.4em;
+    font-size: 2.1em;
     align-self: center;
 }
 
@@ -131,7 +130,7 @@ img{
     height: 420px;
     text-align: center;
     padding: 40px 20% 40px;
-    background-image: url("../images/parallax-4.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/parallax-4.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -255,6 +254,24 @@ img{
 .container_hub > div > div > h3{
     font-size: 2em;
     color: white;
+}
+
+.container_hub > div > div:first-child > h3{
+    -webkit-text-stroke: #009a9e;
+    -webkit-text-stroke-width: 1.5px;
+}
+
+.container_hub > div > div:nth-child(2) > h3{
+    -webkit-text-stroke: #e13870;
+    -webkit-text-stroke-width: 1.5px;
+}
+
+.container_hub > div > div:nth-child(3) > h3{
+    -webkit-text-stroke: #0078be;
+    -webkit-text-stroke-width: 1.5px;
+}
+
+.container_hub > div > div:last-child > h3{
     -webkit-text-stroke: #00802d;
     -webkit-text-stroke-width: 1.5px;
 }
@@ -266,4 +283,85 @@ img{
 .container_hub > div > div > p{
     font-weight: bold;
     color: #333333;
+}
+
+.container_trending{
+    padding: 40px 10% 40px;
+    text-align: center;
+}
+
+.container_trending > h2{
+    margin-bottom: 30px;
+}
+
+.container_trending > button{
+    background-color: #0078BE;
+    color: white;
+    margin-top: 30px;
+    width: 170px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+}
+
+.trending > div > a{
+    text-decoration: none;
+    color: black;
+}
+
+.trending > div > a > h3{
+    padding: 20px; 
+    height: 130px;
+    font-size: 1em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.trending > div > p{
+    padding: 20px 20px 0;
+    height: 80px;
+}
+
+.trending{
+    display: flex;
+}
+
+.trending > div{
+    width: 350px;
+    height: 480px;
+    margin: 0 10px 0;
+    background-color: white;
+    text-align: left;
+}
+
+.trending > a{
+    width: 100%;
+}
+
+.trending > div > a > img{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.trending > div > div {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.trending > p{
+    background-color: #0078BE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    color: white;
+}
+
+.trending > p > a{
+    text-decoration: none;
+    color: white;
 }
